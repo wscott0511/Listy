@@ -13,6 +13,8 @@
 		94A9662D24C759D900EBC225 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9662C24C759D900EBC225 /* ListTableViewController.swift */; };
 		94A9663224C759DA00EBC225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A9663124C759DA00EBC225 /* Assets.xcassets */; };
 		94A9663524C759DA00EBC225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A9663324C759DA00EBC225 /* LaunchScreen.storyboard */; };
+		94CA198724CB8CBB004FEB95 /* images+names.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CA198624CB8CBB004FEB95 /* images+names.swift */; };
+		94DD01C224CB898F008C30D9 /* ParalaxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DD01C124CB898E008C30D9 /* ParalaxCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94A9663124C759DA00EBC225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A9663424C759DA00EBC225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94A9663624C759DA00EBC225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CA198624CB8CBB004FEB95 /* images+names.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "images+names.swift"; sourceTree = "<group>"; };
+		94DD01C124CB898E008C30D9 /* ParalaxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParalaxCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 				94A9663124C759DA00EBC225 /* Assets.xcassets */,
 				94A9663324C759DA00EBC225 /* LaunchScreen.storyboard */,
 				94A9663624C759DA00EBC225 /* Info.plist */,
+				94CA198624CB8CBB004FEB95 /* images+names.swift */,
 			);
 			path = Listy;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		94A9663D24C759F200EBC225 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				94DD01C124CB898E008C30D9 /* ParalaxCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94A9662D24C759D900EBC225 /* ListTableViewController.swift in Sources */,
+				94DD01C224CB898F008C30D9 /* ParalaxCell.swift in Sources */,
+				94CA198724CB8CBB004FEB95 /* images+names.swift in Sources */,
 				94A9662924C759D900EBC225 /* AppDelegate.swift in Sources */,
 				94A9662B24C759D900EBC225 /* SceneDelegate.swift in Sources */,
 			);
